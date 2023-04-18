@@ -71,7 +71,6 @@ class BinarySearchTree {
                 findNode = targetNod;
             } else {
                 if (targetNod.data < data) {
-                    // 7 < 5
                     targetNod = targetNod.right;
                 } else {
                     targetNod = targetNod.left;

@@ -34,9 +34,9 @@ class Queue {
   }
 
   dequeue() {
-    const tail = this.list.value
+    const small = this.list.value
     this.list = this.list.next
-    return tail
+    return small
   }
 }
 
